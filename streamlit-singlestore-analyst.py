@@ -4,7 +4,6 @@ import json
 import sseclient # Make sure you ran: pip install sseclient-py
 
 API_URL = "https://apps.us-east-1.cloud.singlestore.com/v1/organizations/<org-id>/projects/<project-id>f/analyst/chat"
-API_URL = "https://apps.us-east-1.cloud.singlestore.com/v1/organizations/1bf54b61-3069-436a-914c-7779003f0fbd/projects/d5580703-c940-4150-ba33-cc6ebdb0209f/analyst/chat"
 
 # Please revoke this token in your SingleStore portal and use st.secrets!
 TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" 
